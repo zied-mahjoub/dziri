@@ -3,98 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>I and myself</title>
+    <title> ZIZOU</title>
+    <!-- Add Roboto font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      /* Apply Roboto font to the entire page */
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      /* Make the navigation list items inline */
+      .header-navigation ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .header-navigation li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      .header-navigation li:last-child {
+        margin-right: 0;
+      }
+
+      .header-navigation a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .header-navigation a:hover {
+        color: #000;
+      }
+    </style>
 </head>
-<body id="background">
-    
-    <header> 
-        <nav> 
-            <ul id="avan">
-            <li class="first"><a href="#"> | home     |  </a></li>
-            <li class="first"><a href="  #me and myself">   me and myself      | </a></li>
-            <li class="first"><a href="#   my studies">   my studies      | </a></li>
-            <li class="first"><a href="#   skills">   skills     | </a></li>
-            <li class="first"><a href="#    contact">   contact     |  </a></li>
-            </ul>
-        </nav>
+<body>
+    <header>
+        <h1>You Are Welcome</h1>
     </header>
-    <main>
-        <section id="WELCOME TO MY PROFILE">
-            <h1>WELCOME TO MY PROFILE</h1>
-
-        </section>
-    <section id="me and myself">
-        <h2>me and myself</h2>
-        <p> Hello everyone! My name is Fatma Chouari, and I am delighted to be part of this community GOMYCODE. I am passionate about development web, and I love engaging in meaningful conversations about websites. As an avid learner, I believe in the power of knowledge and am always eager to explore new ideas and perspectives. I look forward to connecting with all of you and sharing our experiences and insights together.</p> 
-        <img src="../asstes/298711460_1163206507576342_7677726112509438587_n (3).jpg" alt="" width="400" height="400">
-    </section>
-    <section id="my studies">
-        <h2>my studies</h2>
-        <table border="1">
-            <tr>
-              <th>learning</th>
-              <td> <ol>
-                <li>Diploma of Baccalaureate</li>
-                <li>First-year electronic engineering at university</li>
-                <li>second-year 2nd year in embedded systems</li>
-              </ol>
-              </td>
-
-            </tr>
-            <tr>
-              <th>languages</th>
-              <td>
-                <ol>
-                    <li>Level B2 in English</li>
-                    <li>Level A2 in German </li>
-                </ol>
-              </td>
-              
-            </tr>
-            <tr>
-              <th>option</th>
-              <td>
-                <ul>
-                    <li> development web 1</li>
-                </ul>
-              </td>
-              
-            </tr>
-          </table>
-
-    </section>
-    <section id="skills">
-        <h2>skills</h2>
-        <img src="../asstes/ea759064-fde5-453b-bcee-5525a7cc3332.png" alt=""width="270" height="270">
-        <img src="../asstes/7b57cea3-ac56-488f-aa51-20bd50e7236b.png" alt="" width="270" height="270">
-        <p>
-            Practicing basketball is a great hobby because it's both physically and mentally challenging. It requires a lot of skill and practice to develop your technique and improve your game. It's also a great way to stay active and healthy. When you practice basketball, you can set goals for yourself and work towards achieving them.practicing basketball is a rewarding and enjoyable hobby that can help you stay fit, improve your skills, and have fun.
-            these are some videos as a support you can watch it if you're interest 
-            
-        </p> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xSnHRulOLYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/c18tNcyymLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="header-container">
+        <div class="header-logo">
+          <img src="chemin/vers/votre/logo.png" alt="Logo de l'entreprise">
+        </div>
+        <nav class="header-navigation">
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    <div> 
+        <form> 
+            <label>Name:</label>
+            <input type="text" name="first name" placeholder="Type your name here">
+            <br>
+        <label> Surname:</label>
         
-    </section>
-</main>
-    <footer>
-        <section id="contact">
-            <h2>contact</h2>
-            <ol  start="1"">
-                <li>
-                    <a href="https://www.instagram.com/fatma.chouari/?hl=fr" target="_blank"> <img src="../asstes/insta.jpg" alt "" width="60" height="60"></a>
-                </li>
-        
-                    <li>
-                        <a href="https://www.linkedin.com/in/fatma-chouari-936429283/" target="_blank"> <img src="../asstes/Capture d’écran (127).png"" width="40" height="40"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/fatma.chouari.23/" target="_blank"><img src="../asstes/fc.png" width="40" height="40" alt=""></a>
-                    </li>
-            </ol>
+        <input type="text" name="second name" placeholder="Type your surname">
+        <br>
+        <label> mail:</label>
+        <input type="text" name="adresse mail" placeholder="Type your mail ">
+        <br>
+        <label>birth Data</label>
+        <input type="date" name="birthday">
+        <br>
+        <label>Password</label>
+        <input type="password" name="password"> 
+        </form>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Deserunt molestias iure odio omnis in assumenda asperiores consectetur necessitatibus labore aperiam nulla earum explicabo, harum unde id quod possimus magni tempora?
+        </p>
+        <p> <img src ="../assets/image.jpg" alt="" width="300" height="300"></p>
+        <!--commentaire-->
 
-        </section>
-    </footer>
+    </div>
+    
 </body>
 </html>

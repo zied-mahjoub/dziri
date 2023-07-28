@@ -1,2 +1,131 @@
 
-h1{color:blue}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo img {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+  }
+  
+  .header-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .header-navigation a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Vous pouvez ajouter d'autres styles personnalisés ici */
+  
+  /* Par exemple, si vous souhaitez fixer le header en haut de la page */
+  /* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que le z-index est supérieur à celui du contenu principal */
+  /* } */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact p {
+    margin: 0;
+    color: #666;
+  }
+  
+  /* Vous pouvez ajouter d'autres styles personnalisés ici */
+  
+  /* Par exemple, si vous souhaitez rendre le footer fixé en bas de la page */
+  /* footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  } */
